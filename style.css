@@ -1,0 +1,33 @@
+body {
+    font-family: 'Playwrite Tz Guides', cursive;
+}
+
+table {
+    background-image: url(https://live.staticflickr.com/8245/8471084252_d886a74358_b.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid green;
+}
+
+td, th {
+    border: 1px solid red;
+
+}
+
+td {
+    width: 25%;
+}
+
+td:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+th.total {
+    text-align: right;
+}
